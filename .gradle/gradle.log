@@ -1,5 +1,3 @@
-This mapping 'snapshot_20161220' was designed for MC 1.11! Use at your own peril.This mapping 'snapshot_20161220' was designed for MC 1.11! Use at your own peril.
-
 #################################################
          ForgeGradle 2.2-SNAPSHOT-7f5a769        
   https://github.com/MinecraftForge/ForgeGradle  
@@ -17,7 +15,7 @@ This mapping 'snapshot_20161220' was designed for MC 1.11! Use at your own peril
 :apiClasses UP-TO-DATE
 :sourceMainJava
 :compileJavawarning: [options] bootstrap class path not set in conjunction with -source 1.6
-Note: /Users/tobystrong/Projects/Minecraft/FidgetSpinner/build/sources/main/java/me/tobystrong/spinner/item/ItemSpinner.java uses unchecked or unsafe operations.
+Note: /Users/tobystrong/Projects/Minecraft/1.10.2/FidgetSpinner/build/sources/main/java/me/tobystrong/spinner/item/ItemSpinner.java uses unchecked or unsafe operations.
 Note: Recompile with -Xlint:unchecked for details.
 1 warning
 
@@ -36,7 +34,7 @@ Note: Recompile with -Xlint:unchecked for details.
 :genSrgs SKIPPED
 :reobfJar
 :extractRangemapReplacedMain
-/Users/tobystrong/Projects/Minecraft/FidgetSpinner/build/sources/main/java
+/Users/tobystrong/Projects/Minecraft/1.10.2/FidgetSpinner/build/sources/main/java
 :retromapReplacedMain
 remapping source...
 :sourceJar
@@ -46,4 +44,4 @@ remapping source...
 
 BUILD SUCCESSFUL
 
-Total time: 17.762 secs
+Total time: 15.827 secs

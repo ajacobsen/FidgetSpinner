@@ -16,6 +16,7 @@ import net.minecraftforge.fml.relauncher.Side;
 import net.minecraftforge.fml.relauncher.SideOnly;
 
 import javax.annotation.Nullable;
+import java.util.List;
 
 /**
  * Created by tobystrong on 10/05/2017.
@@ -42,7 +43,7 @@ public class ItemSpinner extends Item
     }
 
     @Override
-    public void getSubItems(Item itemIn, CreativeTabs tab, NonNullList<ItemStack> subItems) {
+    public void getSubItems(Item itemIn, CreativeTabs tab, List<ItemStack> subItems) {
         for(int i = 0; i < 16; i++)
         {
             subItems.add(new ItemStack(FidgetSpinner.instance.fidget_spinner, 1, i));
@@ -66,12 +67,10 @@ public class ItemSpinner extends Item
     }
 
     @Override
-    public ActionResult<ItemStack> onItemRightClick(World worldIn, EntityPlayer playerIn, EnumHand handIn)
+    public ActionResult<ItemStack> onItemRightClick(ItemStack stackIn, World worldIn, EntityPlayer playerIn, EnumHand handIn)
     {
-        ItemStack itemstack = playerIn.getHeldItem(handIn);
-
         playerIn.setActiveHand(handIn);
         playerIn.playSound(SoundEvents.UI_BUTTON_CLICK, 1f, 1f);
-        return new ActionResult(EnumActionResult.SUCCESS, itemstack);
+        return new ActionResult(EnumActionResult.SUCCESS, stackIn);
     }
 }
