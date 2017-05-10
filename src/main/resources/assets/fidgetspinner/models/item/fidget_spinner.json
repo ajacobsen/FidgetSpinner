@@ -1,0 +1,14 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "fidgetspinner:items/fidget_spinner"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "pulling": 1
+      },
+      "model": "fidgetspinner:item/fidget_spinner_anim"
+    }
+  ]
+}

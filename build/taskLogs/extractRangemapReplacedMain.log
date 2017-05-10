@@ -1,0 +1,20 @@
+Symbol range map extraction starting
+Processing 6 files
+startProcessing "me/tobystrong/spinner/FidgetSpinner.java" md5: fc56f98b91cce1bc4b14b9d2c82d96a7
+endProcessing "me/tobystrong/spinner/FidgetSpinner.java"
+
+startProcessing "me/tobystrong/spinner/ModelUtil.java" md5: 3846d6fda97b6f9855fa64ef2ca58e86
+endProcessing "me/tobystrong/spinner/ModelUtil.java"
+
+startProcessing "me/tobystrong/spinner/item/ItemSpinner.java" md5: 6c6fb9bc0f6303aed6a3568603d895a0
+endProcessing "me/tobystrong/spinner/item/ItemSpinner.java"
+
+startProcessing "me/tobystrong/spinner/proxy/ClientProxy.java" md5: c14a2c3667ab6d16c75335f5d86a40a6
+endProcessing "me/tobystrong/spinner/proxy/ClientProxy.java"
+
+startProcessing "me/tobystrong/spinner/proxy/IProxy.java" md5: 651ad9091baebe4db78ba3eede3ff270
+endProcessing "me/tobystrong/spinner/proxy/IProxy.java"
+
+startProcessing "me/tobystrong/spinner/proxy/ServerProxy.java" md5: 56e6079c38f6cdf24a1b9e59e4cf6c59
+endProcessing "me/tobystrong/spinner/proxy/ServerProxy.java"
+
