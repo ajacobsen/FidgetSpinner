@@ -1,5 +1,6 @@
-build/*
-*.iml
-./gradlew
-./gradlew.bat
-.gradle/*
+/*
+
+!.gitignore
+!/src
+!build.gradle
+!LICENSE
