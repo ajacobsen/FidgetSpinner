@@ -40,7 +40,6 @@ public class ClientProxy implements IProxy
         for(int i = 0; i < 16; i++)
         {
             ModelUtil.registerItem(FidgetSpinner.instance.fidget_spinner, i, "fidgetspinner:fidget_spinner");
-            CraftingManager.getInstance().addRecipe(new ItemStack(FidgetSpinner.instance.fidget_spinner, 1, i), " S ", "SWS", " S ", 'W', new ItemStack(Blocks.WOOL, 1, i), 'S', new ItemStack(Items.STICK, 1));
         }
 
         Minecraft.getMinecraft().getItemColors().registerItemColorHandler(new IItemColor() {

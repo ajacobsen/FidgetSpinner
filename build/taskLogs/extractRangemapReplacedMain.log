@@ -1,7 +1,6 @@
 Symbol range map extraction starting
 Processing 6 files
-startProcessing "me/tobystrong/spinner/FidgetSpinner.java" md5: fc56f98b91cce1bc4b14b9d2c82d96a7
-Cache Hit!
+startProcessing "me/tobystrong/spinner/FidgetSpinner.java" md5: 0a08a18a2e9d6a6e0d56b5ce15ea09a7
 endProcessing "me/tobystrong/spinner/FidgetSpinner.java"
 
 startProcessing "me/tobystrong/spinner/ModelUtil.java" md5: 3846d6fda97b6f9855fa64ef2ca58e86
@@ -9,10 +8,10 @@ Cache Hit!
 endProcessing "me/tobystrong/spinner/ModelUtil.java"
 
 startProcessing "me/tobystrong/spinner/item/ItemSpinner.java" md5: 17a373163640331f3551b97ddbdd245f
+Cache Hit!
 endProcessing "me/tobystrong/spinner/item/ItemSpinner.java"
 
-startProcessing "me/tobystrong/spinner/proxy/ClientProxy.java" md5: c14a2c3667ab6d16c75335f5d86a40a6
-Cache Hit!
+startProcessing "me/tobystrong/spinner/proxy/ClientProxy.java" md5: 0c93b04efe05e7fcffda960131d74c26
 endProcessing "me/tobystrong/spinner/proxy/ClientProxy.java"
 
 startProcessing "me/tobystrong/spinner/proxy/IProxy.java" md5: 651ad9091baebe4db78ba3eede3ff270
