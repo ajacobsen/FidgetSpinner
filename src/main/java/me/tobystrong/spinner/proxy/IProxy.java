@@ -6,4 +6,6 @@ package me.tobystrong.spinner.proxy;
 public interface IProxy
 {
     public void registerRenderers();
+
+    public Object[] getSpinnerModels();
 }

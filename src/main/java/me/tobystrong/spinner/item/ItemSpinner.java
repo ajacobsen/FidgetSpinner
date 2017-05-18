@@ -1,17 +1,19 @@
 package me.tobystrong.spinner.item;
 
 import me.tobystrong.spinner.FidgetSpinner;
+import net.minecraft.client.audio.SoundList;
+import net.minecraft.client.resources.model.ModelResourceLocation;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.entity.EntityLivingBase;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.init.Items;
-import net.minecraft.init.SoundEvents;
 import net.minecraft.item.EnumAction;
-import net.minecraft.item.IItemPropertyGetter;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
+import net.minecraft.nbt.NBTTagCompound;
 import net.minecraft.util.*;
 import net.minecraft.world.World;
+import net.minecraftforge.fml.common.SidedProxy;
 import net.minecraftforge.fml.relauncher.Side;
 import net.minecraftforge.fml.relauncher.SideOnly;
 
@@ -23,6 +25,25 @@ import java.util.List;
  */
 public class ItemSpinner extends Item
 {
+    private static final int[] colors = new int[]{
+            0xE9ECEC,
+            0xF07613,
+            0xBD44B3,
+            0x3AAFD9,
+            0xF8C627,
+            0x70B919,
+            0xED8DAC,
+            0x555d60,
+            0x8E8E86,
+            0x158991,
+            0x792AAC,
+            0x35399D,
+            0x724728,
+            0x546D1B,
+            0xA12722,
+            0x3E4447
+    };
+
     public ItemSpinner()
     {
         super();
@@ -30,16 +51,39 @@ public class ItemSpinner extends Item
         setUnlocalizedName("fidget_spinner");
         setMaxStackSize(1);
         setHasSubtypes(true);
-        setCreativeTab(CreativeTabs.MISC);
+        setCreativeTab(CreativeTabs.tabMisc);
+    }
 
-        this.addPropertyOverride(new ResourceLocation("pulling"), new IItemPropertyGetter()
+    @SideOnly(Side.CLIENT)
+    @Override
+    public ModelResourceLocation getModel(ItemStack stack, EntityPlayer player, int useRemaining)
+    {
+        if(player.isUsingItem() && stack.hasTagCompound() && stack.getTagCompound().hasKey("spin") && stack.getTagCompound().getBoolean("spin"))
         {
-            @SideOnly(Side.CLIENT)
-            public float apply(ItemStack stack, @Nullable World worldIn, @Nullable EntityLivingBase entityIn)
-            {
-                return entityIn != null && entityIn.isHandActive() && entityIn.getActiveItemStack() == stack ? 1.0F : 0.0F;
-            }
-        });
+            return (ModelResourceLocation) FidgetSpinner.proxy.getSpinnerModels()[1];
+        }
+
+        return (ModelResourceLocation) FidgetSpinner.proxy.getSpinnerModels()[0];
+    }
+
+    @Override
+    public ItemStack onItemUseFinish(ItemStack stackIn, World worldIn, EntityPlayer playerIn)
+    {
+        if(!stackIn.hasTagCompound())
+        {
+            return stackIn;
+        }
+
+        stackIn.getTagCompound().setBoolean("spin", false);
+
+        playerIn.playSound("random.click", 1f, 1f);
+        return stackIn;
+    }
+
+    @Override
+    public int getColorFromItemStack(ItemStack stack, int tintIndex)
+    {
+        return colors[stack.getMetadata() < 16 ? stack.getMetadata() : 0];
     }
 
     @Override
@@ -67,10 +111,17 @@ public class ItemSpinner extends Item
     }
 
     @Override
-    public ActionResult<ItemStack> onItemRightClick(ItemStack stackIn, World worldIn, EntityPlayer playerIn, EnumHand handIn)
+    public ItemStack onItemRightClick(ItemStack stackIn, World worldIn, EntityPlayer playerIn)
     {
-        playerIn.setActiveHand(handIn);
-        playerIn.playSound(SoundEvents.UI_BUTTON_CLICK, 1f, 1f);
-        return new ActionResult(EnumActionResult.SUCCESS, stackIn);
+        if(!stackIn.hasTagCompound())
+        {
+            stackIn.setTagCompound(new NBTTagCompound());
+        }
+
+        stackIn.getTagCompound().setBoolean("spin", true);
+        playerIn.setItemInUse(stackIn, getMaxItemUseDuration(stackIn));
+
+        playerIn.playSound("random.click", 1f, 1f);
+        return stackIn;
     }
 }

@@ -30,7 +30,7 @@ public class FidgetSpinner
     public void preInit(FMLPreInitializationEvent pre)
     {
         fidget_spinner = new ItemSpinner();
-        GameRegistry.register(fidget_spinner);
+        GameRegistry.registerItem(fidget_spinner, "fidget_spinner");
     }
 
     @Mod.EventHandler
@@ -41,7 +41,7 @@ public class FidgetSpinner
 
         for(int i = 0; i < 16; i++)
         {
-            CraftingManager.getInstance().addRecipe(new ItemStack(FidgetSpinner.instance.fidget_spinner, 1, i), " S ", "SWS", " S ", 'W', new ItemStack(Blocks.WOOL, 1, i), 'S', new ItemStack(Items.STICK, 1));
+            CraftingManager.getInstance().addRecipe(new ItemStack(FidgetSpinner.instance.fidget_spinner, 1, i), " S ", "SWS", " S ", 'W', new ItemStack(Blocks.wool, 1, i), 'S', new ItemStack(Items.stick, 1));
         }
     }
 }

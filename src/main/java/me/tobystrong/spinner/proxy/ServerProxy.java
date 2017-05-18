@@ -10,4 +10,9 @@ public class ServerProxy implements IProxy
     {
         
     }
+
+    @Override
+    public Object[] getSpinnerModels() {
+        return new Object[0];
+    }
 }
