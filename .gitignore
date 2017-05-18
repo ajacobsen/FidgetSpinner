@@ -3,3 +3,4 @@
 !.gitignore
 !/src
 !build.gradle
+!LICENSE
