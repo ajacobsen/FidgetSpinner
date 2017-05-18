@@ -1,50 +1,64 @@
 Symbol range map extraction starting
 Processing 6 files
-startProcessing "me/tobystrong/spinner/FidgetSpinner.java" md5: fc56f98b91cce1bc4b14b9d2c82d96a7
+startProcessing "me/tobystrong/spinner/FidgetSpinner.java" md5: 08fd18356522a82d9d94389b5b25f3d4
 @|me/tobystrong/spinner/FidgetSpinner.java|8|29|me.tobystrong.spinner|package|me.tobystrong.spinner|(file)
 Class Start: me.tobystrong.spinner.FidgetSpinner
-   @|me/tobystrong/spinner/FidgetSpinner.java|460|463|Mod|class|net.minecraftforge.fml.common.Mod
-   @|me/tobystrong/spinner/FidgetSpinner.java|464|469|modid|method|net.minecraftforge.fml.common.Mod|modid|()Ljava/lang/String;
-   @|me/tobystrong/spinner/FidgetSpinner.java|489|493|name|method|net.minecraftforge.fml.common.Mod|name|()Ljava/lang/String;
-   @|me/tobystrong/spinner/FidgetSpinner.java|514|521|version|method|net.minecraftforge.fml.common.Mod|version|()Ljava/lang/String;
-   @|me/tobystrong/spinner/FidgetSpinner.java|542|555|FidgetSpinner|class|me.tobystrong.spinner.FidgetSpinner
-   @|me/tobystrong/spinner/FidgetSpinner.java|611|624|FidgetSpinner|class|me.tobystrong.spinner.FidgetSpinner
-   @|me/tobystrong/spinner/FidgetSpinner.java|563|575|Mod.Instance|class|net.minecraftforge.fml.common.Mod.Instance
-   @|me/tobystrong/spinner/FidgetSpinner.java|611|624|FidgetSpinner|class|me.tobystrong.spinner.FidgetSpinner
-   @|me/tobystrong/spinner/FidgetSpinner.java|625|633|instance|field|me.tobystrong.spinner.FidgetSpinner|instance|
-   @|me/tobystrong/spinner/FidgetSpinner.java|807|813|IProxy|class|me.tobystrong.spinner.proxy.IProxy
-   @|me/tobystrong/spinner/FidgetSpinner.java|641|651|SidedProxy|class|net.minecraftforge.fml.common.SidedProxy
-   @|me/tobystrong/spinner/FidgetSpinner.java|652|657|modId|method|net.minecraftforge.fml.common.SidedProxy|modId|()Ljava/lang/String;
-   @|me/tobystrong/spinner/FidgetSpinner.java|677|687|clientSide|method|net.minecraftforge.fml.common.SidedProxy|clientSide|()Ljava/lang/String;
-   @|me/tobystrong/spinner/FidgetSpinner.java|733|743|serverSide|method|net.minecraftforge.fml.common.SidedProxy|serverSide|()Ljava/lang/String;
-   @|me/tobystrong/spinner/FidgetSpinner.java|807|813|IProxy|class|me.tobystrong.spinner.proxy.IProxy
-   @|me/tobystrong/spinner/FidgetSpinner.java|814|819|proxy|field|me.tobystrong.spinner.FidgetSpinner|proxy|
-   @|me/tobystrong/spinner/FidgetSpinner.java|833|844|ItemSpinner|class|me.tobystrong.spinner.item.ItemSpinner
-   @|me/tobystrong/spinner/FidgetSpinner.java|833|844|ItemSpinner|class|me.tobystrong.spinner.item.ItemSpinner
-   @|me/tobystrong/spinner/FidgetSpinner.java|845|859|fidget_spinner|field|me.tobystrong.spinner.FidgetSpinner|fidget_spinner|
+   @|me/tobystrong/spinner/FidgetSpinner.java|616|619|Mod|class|net.minecraftforge.fml.common.Mod
+   @|me/tobystrong/spinner/FidgetSpinner.java|620|625|modid|method|net.minecraftforge.fml.common.Mod|modid|()Ljava/lang/String;
+   @|me/tobystrong/spinner/FidgetSpinner.java|645|649|name|method|net.minecraftforge.fml.common.Mod|name|()Ljava/lang/String;
+   @|me/tobystrong/spinner/FidgetSpinner.java|670|677|version|method|net.minecraftforge.fml.common.Mod|version|()Ljava/lang/String;
+   @|me/tobystrong/spinner/FidgetSpinner.java|698|711|FidgetSpinner|class|me.tobystrong.spinner.FidgetSpinner
+   @|me/tobystrong/spinner/FidgetSpinner.java|767|780|FidgetSpinner|class|me.tobystrong.spinner.FidgetSpinner
+   @|me/tobystrong/spinner/FidgetSpinner.java|719|731|Mod.Instance|class|net.minecraftforge.fml.common.Mod.Instance
+   @|me/tobystrong/spinner/FidgetSpinner.java|767|780|FidgetSpinner|class|me.tobystrong.spinner.FidgetSpinner
+   @|me/tobystrong/spinner/FidgetSpinner.java|781|789|instance|field|me.tobystrong.spinner.FidgetSpinner|instance|
+   @|me/tobystrong/spinner/FidgetSpinner.java|963|969|IProxy|class|me.tobystrong.spinner.proxy.IProxy
+   @|me/tobystrong/spinner/FidgetSpinner.java|797|807|SidedProxy|class|net.minecraftforge.fml.common.SidedProxy
+   @|me/tobystrong/spinner/FidgetSpinner.java|808|813|modId|method|net.minecraftforge.fml.common.SidedProxy|modId|()Ljava/lang/String;
+   @|me/tobystrong/spinner/FidgetSpinner.java|833|843|clientSide|method|net.minecraftforge.fml.common.SidedProxy|clientSide|()Ljava/lang/String;
+   @|me/tobystrong/spinner/FidgetSpinner.java|889|899|serverSide|method|net.minecraftforge.fml.common.SidedProxy|serverSide|()Ljava/lang/String;
+   @|me/tobystrong/spinner/FidgetSpinner.java|963|969|IProxy|class|me.tobystrong.spinner.proxy.IProxy
+   @|me/tobystrong/spinner/FidgetSpinner.java|970|975|proxy|field|me.tobystrong.spinner.FidgetSpinner|proxy|
+   @|me/tobystrong/spinner/FidgetSpinner.java|989|1000|ItemSpinner|class|me.tobystrong.spinner.item.ItemSpinner
+   @|me/tobystrong/spinner/FidgetSpinner.java|989|1000|ItemSpinner|class|me.tobystrong.spinner.item.ItemSpinner
+   @|me/tobystrong/spinner/FidgetSpinner.java|1001|1015|fidget_spinner|field|me.tobystrong.spinner.FidgetSpinner|fidget_spinner|
    Method Start: preInit(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
-      @|me/tobystrong/spinner/FidgetSpinner.java|934|937|pre|param|me.tobystrong.spinner.FidgetSpinner|preInit|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V|pre|0
-      @|me/tobystrong/spinner/FidgetSpinner.java|867|883|Mod.EventHandler|class|net.minecraftforge.fml.common.Mod.EventHandler
-      @|me/tobystrong/spinner/FidgetSpinner.java|900|907|preInit|method|me.tobystrong.spinner.FidgetSpinner|preInit|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
-      @|me/tobystrong/spinner/FidgetSpinner.java|908|933|FMLPreInitializationEvent|class|net.minecraftforge.fml.common.event.FMLPreInitializationEvent
-      @|me/tobystrong/spinner/FidgetSpinner.java|953|967|fidget_spinner|field|me.tobystrong.spinner.FidgetSpinner|fidget_spinner
-      @|me/tobystrong/spinner/FidgetSpinner.java|974|985|ItemSpinner|class|me.tobystrong.spinner.item.ItemSpinner
-      @|me/tobystrong/spinner/FidgetSpinner.java|997|1009|GameRegistry|class|net.minecraftforge.fml.common.registry.GameRegistry
-      @|me/tobystrong/spinner/FidgetSpinner.java|1010|1018|register|method|net.minecraftforge.fml.common.registry.GameRegistry|register|(Lnet/minecraftforge/fml/common/registry/IForgeRegistryEntry;)Lnet/minecraftforge/fml/common/registry/IForgeRegistryEntry;
-      @|me/tobystrong/spinner/FidgetSpinner.java|1019|1033|fidget_spinner|field|me.tobystrong.spinner.FidgetSpinner|fidget_spinner
+      @|me/tobystrong/spinner/FidgetSpinner.java|1090|1093|pre|param|me.tobystrong.spinner.FidgetSpinner|preInit|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V|pre|0
+      @|me/tobystrong/spinner/FidgetSpinner.java|1023|1039|Mod.EventHandler|class|net.minecraftforge.fml.common.Mod.EventHandler
+      @|me/tobystrong/spinner/FidgetSpinner.java|1056|1063|preInit|method|me.tobystrong.spinner.FidgetSpinner|preInit|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
+      @|me/tobystrong/spinner/FidgetSpinner.java|1064|1089|FMLPreInitializationEvent|class|net.minecraftforge.fml.common.event.FMLPreInitializationEvent
+      @|me/tobystrong/spinner/FidgetSpinner.java|1109|1123|fidget_spinner|field|me.tobystrong.spinner.FidgetSpinner|fidget_spinner
+      @|me/tobystrong/spinner/FidgetSpinner.java|1130|1141|ItemSpinner|class|me.tobystrong.spinner.item.ItemSpinner
+      @|me/tobystrong/spinner/FidgetSpinner.java|1153|1165|GameRegistry|class|net.minecraftforge.fml.common.registry.GameRegistry
+      @|me/tobystrong/spinner/FidgetSpinner.java|1166|1174|register|method|net.minecraftforge.fml.common.registry.GameRegistry|register|(Lnet/minecraftforge/fml/common/registry/IForgeRegistryEntry;)Lnet/minecraftforge/fml/common/registry/IForgeRegistryEntry;
+      @|me/tobystrong/spinner/FidgetSpinner.java|1175|1189|fidget_spinner|field|me.tobystrong.spinner.FidgetSpinner|fidget_spinner
    Method End: preInit(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
    Method Start: init(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
-      @|me/tobystrong/spinner/FidgetSpinner.java|1109|1113|init|param|me.tobystrong.spinner.FidgetSpinner|init|(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V|init|0
-      @|me/tobystrong/spinner/FidgetSpinner.java|1048|1064|Mod.EventHandler|class|net.minecraftforge.fml.common.Mod.EventHandler
-      @|me/tobystrong/spinner/FidgetSpinner.java|1081|1085|init|method|me.tobystrong.spinner.FidgetSpinner|init|(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
-      @|me/tobystrong/spinner/FidgetSpinner.java|1086|1108|FMLInitializationEvent|class|net.minecraftforge.fml.common.event.FMLInitializationEvent
-      @|me/tobystrong/spinner/FidgetSpinner.java|1129|1134|proxy|field|me.tobystrong.spinner.FidgetSpinner|proxy
-      @|me/tobystrong/spinner/FidgetSpinner.java|1135|1152|registerRenderers|method|me.tobystrong.spinner.proxy.IProxy|registerRenderers|()V
+      @|me/tobystrong/spinner/FidgetSpinner.java|1265|1269|init|param|me.tobystrong.spinner.FidgetSpinner|init|(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V|init|0
+      @|me/tobystrong/spinner/FidgetSpinner.java|1204|1220|Mod.EventHandler|class|net.minecraftforge.fml.common.Mod.EventHandler
+      @|me/tobystrong/spinner/FidgetSpinner.java|1237|1241|init|method|me.tobystrong.spinner.FidgetSpinner|init|(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
+      @|me/tobystrong/spinner/FidgetSpinner.java|1242|1264|FMLInitializationEvent|class|net.minecraftforge.fml.common.event.FMLInitializationEvent
+      @|me/tobystrong/spinner/FidgetSpinner.java|1285|1290|proxy|field|me.tobystrong.spinner.FidgetSpinner|proxy
+      @|me/tobystrong/spinner/FidgetSpinner.java|1291|1308|registerRenderers|method|me.tobystrong.spinner.proxy.IProxy|registerRenderers|()V
+      @|me/tobystrong/spinner/FidgetSpinner.java|1371|1386|CraftingManager|class|net.minecraft.item.crafting.CraftingManager
+      @|me/tobystrong/spinner/FidgetSpinner.java|1387|1398|getInstance|method|net.minecraft.item.crafting.CraftingManager|getInstance|()Lnet/minecraft/item/crafting/CraftingManager;
+      @|me/tobystrong/spinner/FidgetSpinner.java|1401|1410|addRecipe|method|net.minecraft.item.crafting.CraftingManager|addRecipe|(Lnet/minecraft/item/ItemStack;[Ljava/lang/Object;)Lnet/minecraft/item/crafting/ShapedRecipes;
+      @|me/tobystrong/spinner/FidgetSpinner.java|1415|1424|ItemStack|class|net.minecraft.item.ItemStack
+      @|me/tobystrong/spinner/FidgetSpinner.java|1425|1438|FidgetSpinner|class|me.tobystrong.spinner.FidgetSpinner
+      @|me/tobystrong/spinner/FidgetSpinner.java|1439|1447|instance|field|me.tobystrong.spinner.FidgetSpinner|instance
+      @|me/tobystrong/spinner/FidgetSpinner.java|1448|1462|fidget_spinner|field|me.tobystrong.spinner.FidgetSpinner|fidget_spinner
+      @|me/tobystrong/spinner/FidgetSpinner.java|1501|1510|ItemStack|class|net.minecraft.item.ItemStack
+      @|me/tobystrong/spinner/FidgetSpinner.java|1511|1517|Blocks|class|net.minecraft.init.Blocks
+      @|me/tobystrong/spinner/FidgetSpinner.java|1518|1522|WOOL|field|net.minecraft.init.Blocks|WOOL
+      @|me/tobystrong/spinner/FidgetSpinner.java|1540|1549|ItemStack|class|net.minecraft.item.ItemStack
+      @|me/tobystrong/spinner/FidgetSpinner.java|1550|1555|Items|class|net.minecraft.init.Items
+      @|me/tobystrong/spinner/FidgetSpinner.java|1556|1561|STICK|field|net.minecraft.init.Items|STICK
    Method End: init(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
 Class End  : me.tobystrong.spinner.FidgetSpinner
 endProcessing "me/tobystrong/spinner/FidgetSpinner.java"
 
 startProcessing "me/tobystrong/spinner/ModelUtil.java" md5: 3846d6fda97b6f9855fa64ef2ca58e86
+Cache Hit!
 @|me/tobystrong/spinner/ModelUtil.java|8|29|me.tobystrong.spinner|package|me.tobystrong.spinner|(file)
 Class Start: me.tobystrong.spinner.ModelUtil
    @|me/tobystrong/spinner/ModelUtil.java|277|286|ModelUtil|class|me.tobystrong.spinner.ModelUtil
@@ -104,6 +118,7 @@ Class End  : me.tobystrong.spinner.ModelUtil
 endProcessing "me/tobystrong/spinner/ModelUtil.java"
 
 startProcessing "me/tobystrong/spinner/item/ItemSpinner.java" md5: 6c6fb9bc0f6303aed6a3568603d895a0
+Cache Hit!
 @|me/tobystrong/spinner/item/ItemSpinner.java|8|34|me.tobystrong.spinner.item|package|me.tobystrong.spinner.item|(file)
 Class Start: me.tobystrong.spinner.item.ItemSpinner
    @|me/tobystrong/spinner/item/ItemSpinner.java|707|718|ItemSpinner|class|me.tobystrong.spinner.item.ItemSpinner
@@ -202,7 +217,7 @@ Class Start: me.tobystrong.spinner.item.ItemSpinner
 Class End  : me.tobystrong.spinner.item.ItemSpinner
 endProcessing "me/tobystrong/spinner/item/ItemSpinner.java"
 
-startProcessing "me/tobystrong/spinner/proxy/ClientProxy.java" md5: c14a2c3667ab6d16c75335f5d86a40a6
+startProcessing "me/tobystrong/spinner/proxy/ClientProxy.java" md5: 0c93b04efe05e7fcffda960131d74c26
 @|me/tobystrong/spinner/proxy/ClientProxy.java|8|35|me.tobystrong.spinner.proxy|package|me.tobystrong.spinner.proxy|(file)
 Class Start: me.tobystrong.spinner.proxy.ClientProxy
    @|me/tobystrong/spinner/proxy/ClientProxy.java|466|477|ClientProxy|class|me.tobystrong.spinner.proxy.ClientProxy
@@ -216,46 +231,34 @@ Class Start: me.tobystrong.spinner.proxy.ClientProxy
       @|me/tobystrong/spinner/proxy/ClientProxy.java|981|994|FidgetSpinner|class|me.tobystrong.spinner.FidgetSpinner
       @|me/tobystrong/spinner/proxy/ClientProxy.java|995|1003|instance|field|me.tobystrong.spinner.FidgetSpinner|instance
       @|me/tobystrong/spinner/proxy/ClientProxy.java|1004|1018|fidget_spinner|field|me.tobystrong.spinner.FidgetSpinner|fidget_spinner
-      @|me/tobystrong/spinner/proxy/ClientProxy.java|1068|1083|CraftingManager|class|net.minecraft.item.crafting.CraftingManager
-      @|me/tobystrong/spinner/proxy/ClientProxy.java|1084|1095|getInstance|method|net.minecraft.item.crafting.CraftingManager|getInstance|()Lnet/minecraft/item/crafting/CraftingManager;
-      @|me/tobystrong/spinner/proxy/ClientProxy.java|1098|1107|addRecipe|method|net.minecraft.item.crafting.CraftingManager|addRecipe|(Lnet/minecraft/item/ItemStack;[Ljava/lang/Object;)Lnet/minecraft/item/crafting/ShapedRecipes;
-      @|me/tobystrong/spinner/proxy/ClientProxy.java|1112|1121|ItemStack|class|net.minecraft.item.ItemStack
-      @|me/tobystrong/spinner/proxy/ClientProxy.java|1122|1135|FidgetSpinner|class|me.tobystrong.spinner.FidgetSpinner
-      @|me/tobystrong/spinner/proxy/ClientProxy.java|1136|1144|instance|field|me.tobystrong.spinner.FidgetSpinner|instance
-      @|me/tobystrong/spinner/proxy/ClientProxy.java|1145|1159|fidget_spinner|field|me.tobystrong.spinner.FidgetSpinner|fidget_spinner
-      @|me/tobystrong/spinner/proxy/ClientProxy.java|1198|1207|ItemStack|class|net.minecraft.item.ItemStack
-      @|me/tobystrong/spinner/proxy/ClientProxy.java|1208|1214|Blocks|class|net.minecraft.init.Blocks
-      @|me/tobystrong/spinner/proxy/ClientProxy.java|1215|1219|WOOL|field|net.minecraft.init.Blocks|WOOL
-      @|me/tobystrong/spinner/proxy/ClientProxy.java|1237|1246|ItemStack|class|net.minecraft.item.ItemStack
-      @|me/tobystrong/spinner/proxy/ClientProxy.java|1247|1252|Items|class|net.minecraft.init.Items
-      @|me/tobystrong/spinner/proxy/ClientProxy.java|1253|1258|STICK|field|net.minecraft.init.Items|STICK
-      @|me/tobystrong/spinner/proxy/ClientProxy.java|1284|1293|Minecraft|class|net.minecraft.client.Minecraft
-      @|me/tobystrong/spinner/proxy/ClientProxy.java|1294|1306|getMinecraft|method|net.minecraft.client.Minecraft|getMinecraft|()Lnet/minecraft/client/Minecraft;
-      @|me/tobystrong/spinner/proxy/ClientProxy.java|1309|1322|getItemColors|method|net.minecraft.client.Minecraft|getItemColors|()Lnet/minecraft/client/renderer/color/ItemColors;
-      @|me/tobystrong/spinner/proxy/ClientProxy.java|1325|1349|registerItemColorHandler|method|net.minecraft.client.renderer.color.ItemColors|registerItemColorHandler|(Lnet/minecraft/client/renderer/color/IItemColor;[Lnet/minecraft/item/Item;)V
-      @|me/tobystrong/spinner/proxy/ClientProxy.java|1354|1364|IItemColor|class|net.minecraft.client.renderer.color.IItemColor
+      @|me/tobystrong/spinner/proxy/ClientProxy.java|1075|1084|Minecraft|class|net.minecraft.client.Minecraft
+      @|me/tobystrong/spinner/proxy/ClientProxy.java|1085|1097|getMinecraft|method|net.minecraft.client.Minecraft|getMinecraft|()Lnet/minecraft/client/Minecraft;
+      @|me/tobystrong/spinner/proxy/ClientProxy.java|1100|1113|getItemColors|method|net.minecraft.client.Minecraft|getItemColors|()Lnet/minecraft/client/renderer/color/ItemColors;
+      @|me/tobystrong/spinner/proxy/ClientProxy.java|1116|1140|registerItemColorHandler|method|net.minecraft.client.renderer.color.ItemColors|registerItemColorHandler|(Lnet/minecraft/client/renderer/color/IItemColor;[Lnet/minecraft/item/Item;)V
+      @|me/tobystrong/spinner/proxy/ClientProxy.java|1145|1155|IItemColor|class|net.minecraft.client.renderer.color.IItemColor
       Anon Class Start: me.tobystrong.spinner.proxy.ClientProxy$1
          Method Start: getColorFromItemstack(Lnet/minecraft/item/ItemStack;I)I
-            @|me/tobystrong/spinner/proxy/ClientProxy.java|1446|1451|stack|param|me.tobystrong.spinner.proxy.ClientProxy$1|getColorFromItemstack|(Lnet/minecraft/item/ItemStack;I)I|stack|0
-            @|me/tobystrong/spinner/proxy/ClientProxy.java|1457|1466|tintIndex|param|me.tobystrong.spinner.proxy.ClientProxy$1|getColorFromItemstack|(Lnet/minecraft/item/ItemStack;I)I|tintIndex|1
-            @|me/tobystrong/spinner/proxy/ClientProxy.java|1382|1390|Override|class|java.lang.Override
-            @|me/tobystrong/spinner/proxy/ClientProxy.java|1414|1435|getColorFromItemstack|method|net.minecraft.client.renderer.color.IItemColor|getColorFromItemstack|(Lnet/minecraft/item/ItemStack;I)I
-            @|me/tobystrong/spinner/proxy/ClientProxy.java|1436|1445|ItemStack|class|net.minecraft.item.ItemStack
-            @|me/tobystrong/spinner/proxy/ClientProxy.java|1505|1511|colors|field|me.tobystrong.spinner.proxy.ClientProxy|colors
-            @|me/tobystrong/spinner/proxy/ClientProxy.java|1512|1517|stack|param|me.tobystrong.spinner.proxy.ClientProxy$1|getColorFromItemstack|(Lnet/minecraft/item/ItemStack;I)I|stack|0
-            @|me/tobystrong/spinner/proxy/ClientProxy.java|1518|1529|getMetadata|method|net.minecraft.item.ItemStack|getMetadata|()I
-            @|me/tobystrong/spinner/proxy/ClientProxy.java|1539|1544|stack|param|me.tobystrong.spinner.proxy.ClientProxy$1|getColorFromItemstack|(Lnet/minecraft/item/ItemStack;I)I|stack|0
-            @|me/tobystrong/spinner/proxy/ClientProxy.java|1545|1556|getMetadata|method|net.minecraft.item.ItemStack|getMetadata|()I
+            @|me/tobystrong/spinner/proxy/ClientProxy.java|1237|1242|stack|param|me.tobystrong.spinner.proxy.ClientProxy$1|getColorFromItemstack|(Lnet/minecraft/item/ItemStack;I)I|stack|0
+            @|me/tobystrong/spinner/proxy/ClientProxy.java|1248|1257|tintIndex|param|me.tobystrong.spinner.proxy.ClientProxy$1|getColorFromItemstack|(Lnet/minecraft/item/ItemStack;I)I|tintIndex|1
+            @|me/tobystrong/spinner/proxy/ClientProxy.java|1173|1181|Override|class|java.lang.Override
+            @|me/tobystrong/spinner/proxy/ClientProxy.java|1205|1226|getColorFromItemstack|method|net.minecraft.client.renderer.color.IItemColor|getColorFromItemstack|(Lnet/minecraft/item/ItemStack;I)I
+            @|me/tobystrong/spinner/proxy/ClientProxy.java|1227|1236|ItemStack|class|net.minecraft.item.ItemStack
+            @|me/tobystrong/spinner/proxy/ClientProxy.java|1296|1302|colors|field|me.tobystrong.spinner.proxy.ClientProxy|colors
+            @|me/tobystrong/spinner/proxy/ClientProxy.java|1303|1308|stack|param|me.tobystrong.spinner.proxy.ClientProxy$1|getColorFromItemstack|(Lnet/minecraft/item/ItemStack;I)I|stack|0
+            @|me/tobystrong/spinner/proxy/ClientProxy.java|1309|1320|getMetadata|method|net.minecraft.item.ItemStack|getMetadata|()I
+            @|me/tobystrong/spinner/proxy/ClientProxy.java|1330|1335|stack|param|me.tobystrong.spinner.proxy.ClientProxy$1|getColorFromItemstack|(Lnet/minecraft/item/ItemStack;I)I|stack|0
+            @|me/tobystrong/spinner/proxy/ClientProxy.java|1336|1347|getMetadata|method|net.minecraft.item.ItemStack|getMetadata|()I
          Method End: getColorFromItemstack(Lnet/minecraft/item/ItemStack;I)I
       Anon Class End: me.tobystrong.spinner.proxy.ClientProxy$1
-      @|me/tobystrong/spinner/proxy/ClientProxy.java|1590|1603|FidgetSpinner|class|me.tobystrong.spinner.FidgetSpinner
-      @|me/tobystrong/spinner/proxy/ClientProxy.java|1604|1612|instance|field|me.tobystrong.spinner.FidgetSpinner|instance
-      @|me/tobystrong/spinner/proxy/ClientProxy.java|1613|1627|fidget_spinner|field|me.tobystrong.spinner.FidgetSpinner|fidget_spinner
+      @|me/tobystrong/spinner/proxy/ClientProxy.java|1381|1394|FidgetSpinner|class|me.tobystrong.spinner.FidgetSpinner
+      @|me/tobystrong/spinner/proxy/ClientProxy.java|1395|1403|instance|field|me.tobystrong.spinner.FidgetSpinner|instance
+      @|me/tobystrong/spinner/proxy/ClientProxy.java|1404|1418|fidget_spinner|field|me.tobystrong.spinner.FidgetSpinner|fidget_spinner
    Method End: registerRenderers()V
 Class End  : me.tobystrong.spinner.proxy.ClientProxy
 endProcessing "me/tobystrong/spinner/proxy/ClientProxy.java"
 
 startProcessing "me/tobystrong/spinner/proxy/IProxy.java" md5: 651ad9091baebe4db78ba3eede3ff270
+Cache Hit!
 @|me/tobystrong/spinner/proxy/IProxy.java|8|35|me.tobystrong.spinner.proxy|package|me.tobystrong.spinner.proxy|(file)
 Class Start: me.tobystrong.spinner.proxy.IProxy
    @|me/tobystrong/spinner/proxy/IProxy.java|103|109|IProxy|class|me.tobystrong.spinner.proxy.IProxy
@@ -266,6 +269,7 @@ Class End  : me.tobystrong.spinner.proxy.IProxy
 endProcessing "me/tobystrong/spinner/proxy/IProxy.java"
 
 startProcessing "me/tobystrong/spinner/proxy/ServerProxy.java" md5: 56e6079c38f6cdf24a1b9e59e4cf6c59
+Cache Hit!
 @|me/tobystrong/spinner/proxy/ServerProxy.java|8|35|me.tobystrong.spinner.proxy|package|me.tobystrong.spinner.proxy|(file)
 Class Start: me.tobystrong.spinner.proxy.ServerProxy
    @|me/tobystrong/spinner/proxy/ServerProxy.java|99|110|ServerProxy|class|me.tobystrong.spinner.proxy.ServerProxy
